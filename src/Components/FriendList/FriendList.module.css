@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.block{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 1px rgba(61, 61, 61, 0.6);
+    margin: 15px 0px;
+    border-radius: 5px;
+
+    width: 400px;
+}
+.name{
+    font-family: 'Open Sans';
+    width: max-content;
+}
+.point{
+    font-size: 74px;
+    color:#161000;
+    margin: 5px;
+}
+.online{
+    composes: point;
+    color: #479f03;
+}
+.out{
+    composes:point;
+    color: #89220a;
+}
+.block::marker{
+    content: "";
+}
+.img{
+    width: 100px;
+}
