@@ -1,4 +1,9 @@
-[
+[ {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/4540/4540789.png",
+    "name": "Patron",
+    "isOnline": false,
+    "id": 1812
+  },
   {
     "avatar": "https://cdn-icons-png.flaticon.com/512/1211/1211117.png",
     "name": "Mango",
@@ -28,5 +33,17 @@
     "name": "Poly",
     "isOnline": false,
     "id": 1284
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1864/1864593.png",
+    "name": "Gregori",
+    "isOnline": true,
+    "id": 1042
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3048/3048122.png",
+    "name": "Bob",
+    "isOnline": false,
+    "id": 1021
   }
 ]

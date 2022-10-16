@@ -1,0 +1,16 @@
+.Block{
+    margin: 10px 0;
+    width: 400px;
+    background-color: whitesmoke;
+    font-family: 'Open Sans';
+}
+.example .columnBlock{
+    background-color: rgb(0, 170, 255);
+    font-family: 'Open Sans';
+}
+.columnBlock{
+    border: white 1px solid;
+}
+.columnBlock:nth-child(3n){
+    width: 100px;
+}

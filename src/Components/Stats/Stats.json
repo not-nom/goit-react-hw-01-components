@@ -1,0 +1,8 @@
+[
+    { "id": "id-1", "label": ".exe", "percentage": 0.01 },
+    { "id": "id-2", "label": ".docx", "percentage": 0.4 },
+    { "id": "id-3", "label": ".mp4", "percentage": 99 },
+    { "id": "id-4", "label": ".psd", "percentage": 0.09 },
+    { "id": "id-5", "label": ".pdf", "percentage": 0.5 }
+]
+  

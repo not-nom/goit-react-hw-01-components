@@ -4,7 +4,7 @@ import styles from './FriendList.module.css'
 export default function FriendList({variant = 'point'}){
     return(
         <ul>
-            {friends.map((list,i) => {
+            {friends.map((list) => {
                 return(
                 <li key={list.id} className={styles.block}>
                     <p className={list.isOnline ? styles.online : styles.out}>•</p>

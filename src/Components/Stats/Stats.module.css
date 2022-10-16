@@ -1,0 +1,48 @@
+.block{ 
+    margin: 10px 0;
+    width: 400px;
+    background-color: whitesmoke;
+    font-family: 'Open Sans';
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 1px rgba(61, 61, 61, 0.6);
+}
+.headText{
+    margin: auto;
+}
+.header{
+    width: 400px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.data{
+    display: flex;
+    flex-direction: row;
+
+    width:400px;
+    height: 100px;
+    grid-template-columns: repeat(5,100px);
+    border-radius: 5px;
+}
+.dataBlock{
+    width:80px;
+    height: 100px;
+    text-align: center;
+    color:whitesmoke;
+    border-radius: 5px;
+}
+.dataBlock:nth-child(1n){
+    background-color: #007dc5;
+}
+.dataBlock:nth-child(2n){
+    background-color: #c500ab;
+}
+.dataBlock:nth-child(3n){
+    background-color: #4f9400;
+}
+.dataBlock:nth-child(4n){
+    background-color: #000000;
+}
+.dataBlock:nth-child(5n){
+    background-color: #c56300;
+}
+
