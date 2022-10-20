@@ -1,7 +1,7 @@
 import styles from './Transact.module.css'
-import TransActList from './Transact.json'
+import PropTypes from 'prop-types'
 
-export default function TransAct() {
+export default function TransAct({TransActList}) {
   return (
         <table className={styles.Block}>
             <tr className={styles.example}>
@@ -20,4 +20,7 @@ export default function TransAct() {
             })}
         </table>
     )
+}
+TransAct.propTypes = {
+    TransActList: PropTypes.array.isRequired
 }

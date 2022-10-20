@@ -1,18 +1,22 @@
-import friends from './friends.json'
-import styles from './FriendList.module.css'
+import FriendListItem from './FriendListItem/FriendListItem'
+import PropTypes from "prop-types";
 
-export default function FriendList({variant = 'point'}){
+export default function FriendList({friends}){
     return(
         <ul>
             {friends.map((list) => {
                 return(
-                <li key={list.id} className={styles.block}>
-                    <p className={list.isOnline ? styles.online : styles.out}>•</p>
-                    <img src={list.avatar} alt={list.name} className={styles.img}/>
-                    <h1 className={styles.name}>{list.name}</h1>
-                </li>
+                    <FriendListItem
+                    key={list.id}
+                    name={list.name}
+                    avatar={list.avatar}
+                    isOnline={list.isOnline}/>
                 )
             })}
         </ul>
     )
+}
+
+FriendList.propTypes = {
+    friends: PropTypes.array.isRequired
 }
